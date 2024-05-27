@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.cdnfonts.com/css/livvic" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Livvic', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-[#014E56] pb-[120px]">
+        <nav class="container max-w-[85%] mx-auto flex justify-between py-[77px]">
+            <a href="#">
+                <img src="./images/myteam 2.png" alt="">
+            </a>
+
+            <ul class="flex gap-[40px] text-white items-center text-[18px] max-[560px]:hidden">
+                <li class="hover:animate-bounce hover:text-[#f67e7e] font-semibold text-lg ">
+                    <a href="">home</a>
+                </li>
+                <li class="hover:animate-bounce  hover:text-[#F67E7E] font-semibold text-lg  ">
+                    <a href="">about</a>
+                </li>
+                <li
+                    class="py-2 px-8 border-2 border-white font-semibold text-lg rounded-full hover:bg-white hover:text-[#F67E7E]">
+                    <a href="">contact us</a>
+                </li>
+            </ul>
+            <img src="./images/Group 2.png" class="hidden max-[560px]:block w-full max-h-[17px] max-w-[20px]" alt="">
+        </nav>
+
+        <!-- showcase -->
+
+        <div class="showcase flex items-center justify-between container max-w-[85%] mx-auto max-[960px]:flex-col max-[960px]:justify-center max-[960px]:text-center">
+            <h1 class="text-6xl font-semibold w-[40%] text-white">About</h1>
+            <p class="w-[70%] max-w-[730px] text-white font-semibold mt-28 text-lg">We help companies build dynamic
+                teams made up of top global talent. Using
+                our network of passionate professionals we drive innovation and deliver incredible outcomes. Talented,
+                diverse teams shape the best products and experiences. We’ll bring those teams to you.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="bg-[#004047] py-20 ">
+            <div class="container mx-auto max-w-[85%]">
+                <h1 class="text-white text-[48px] font-bold flex justify-center py-[70px]">Meet the directors</h1>
+                <div class="flex items-center justify-center flex-wrap gap-x-[5%] gap-y-[50px]">
+                    <div
+                        class="flex-1 max-w-[360px] w-[28%] min-w-[327px] bg-[#012F34] text-white relative flex items-center justify-center flex-col py-14">
+                        <img src="./images/Oval.png" alt="">
+                        <h3 class="mt-10 font-bold text-[#79C8C7] text-lg">Nikita Marks</h3>
+                        <i>Founder & CEO</i>
+
+                        <button class="absolute -bottom-8"><img src="./images/Group 13.png" alt=""></button>
+                    </div>
+
+                    <div
+                        class="flex-1 max-w-[360px] w-[28%] min-w-[327px] bg-[#012F34] text-white relative flex items-center justify-center flex-col py-14">
+                        <img src="./images/Oval (1).png" alt="">
+                        <h3 class="mt-10 font-bold text-[#79C8C7] text-lg">Cristian Duncan</h3>
+                        <i>Co-founder & COO</i>
+
+                        <button class="absolute -bottom-8"><img src="./images/Group 13.png" alt=""></button>
+                    </div>
+
+                    <div
+                        class="flex-1 max-w-[360px] w-[28%] min-w-[327px] bg-[#012F34] text-white relative flex items-center justify-center flex-col py-14">
+                        <img src="./images/Oval (2).png" alt="">
+                        <h3 class="mt-10 font-bold text-[#79C8C7] text-lg">Cruz Hamer</h3>
+                        <i>Co-founder & CTO</i>
+
+                        <button class="absolute -bottom-8"><img src="./images/Group 13.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="py-20 bg-[#012F34]">
+            <div class="container mx-auto max-w-[85%]">
+                <h1 class="mb-10 text-white text-5xl font-bold text-center">Some of our clients</h1>
+                <div class="flex items-center flex-wrap gap-x-[5%] gap-y-[50px] max-[560px]:flex-col">
+                    <img src="./images/Bitmap.png" class="flex-1 w-[15%] max-h-[22.79px] max-[560px]:w-[50%]" alt="">
+                    <img src="./images/Bitmap (1).png" class="flex-1 w-[15%] max-h-[22.79px] max-[560px]:w-[50%]" alt="">
+                    <img src="./images/Bitmap (2).png" class="flex-1 w-[15%] max-h-[22.79px] max-[560px]:w-[50%]" alt="">
+                    <img src="./images/Bitmap (3).png" class="flex-1 w-[15%] max-h-[22.79px] max-[560px]:w-[50%]" alt="">
+                    <img src="./images/gadgets-now.png" class="flex-1 w-[15%] max-h-[22.79px] max-[560px]:w-[50%]" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-[#F67E7E]">
+            <div class="cards bg-[#F67E7E] text-[#012F34] flex  flex-wrap gap-20">
+                <div class="container max-w-[85%] mx-auto py-20 flex justify-between items-center max-[960px]:flex-col gap-10 max-[960px]:text-center">
+                    <div class="card-left flex-1 items-center">
+                        <h1 class="text-5xl font-bold">Ready to get started?</h1>
+                    </div>
+                    <div class="card-right ">
+                        <button class="border-2 py-[9px] px-[32px] rounded-full border-[#012F34] font-bold hover:bg-[#014E56] hover:border transparent hover:text-white">
+                            contact us
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#002529]">
+        <nav class="container max-w-[85%] mx-auto flex items-center text-white justify-between py-7  max-[560px]:flex-col gap-[24px]  ">
+            <a href="">
+                <img src="./images/myteam 2.png" alt="">
+            </a>
+            <div class="images flex gap-4">
+                <a href=""><img src="./images/facebook-logo (1).png" alt=""></a>
+                <a href=""><img src="./images/pinterest-logo.png" alt=""></a>
+                <a href=""><img src="./images/twitter-logo.png" alt=""></a>
+            </div>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
